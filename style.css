@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #dddddd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 75%;
+  height: 90vh;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.box-left {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-left h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box-left input {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #efefef;
+}
+
+.signin-btn {
+  background-color: #06976a;
+  color: white;
+  padding: 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.signin-btn:hover {
+  background: #00895f;
+}
+
+.box-left p {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.social-icons .facebook {
+  background-color: #3b5998;
+}
+
+.social-icons .google {
+  background-color: #dd4b39;
+}
+
+.social-icons .linkedin {
+  background-color: #0077b5;
+}
+.social-icons:hover {
+  color: #00aa77;
+}
+
+.box-right {
+  width: 50%;
+  padding: 40px;
+  background: linear-gradient(to bottom, #27d295, #1a8968);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-right h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.box-right p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  /* backdrop-filter: blur(6px); */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.transparent-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.transparent-box a:hover {
+  opacity: 0.8;
+}
